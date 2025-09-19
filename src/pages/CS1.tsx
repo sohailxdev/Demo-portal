@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/table";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { useAppSelector } from "@/app/hooks";
-import { selectCS1S } from "./CS1Slice";
+import { selectCS1S } from "./cs1Slice";
 import { useDispatch } from "react-redux";
 import { setCS1Data } from "./FinalSlice";
 
