@@ -142,27 +142,9 @@ const Sidebar = () => {
           </div>
         );
       })}
-
-      <div
-        onClick={() => {
-          navigate("/sidebar");
-        }}
-        className={`flex cursor-pointer items-center justify-between py-1.5 rounded-r ${
-          "/sidebar" !== path.pathname
-            ? "ps-1 text-foreground border-s-4 border-s-background"
-            : "ps-1 text-background bg-red-500 font-semibold border-s-4 border-s-green-500"
-        }`}
-      >
-        <div className="flex items-center gap-1">
-          <PanelRight className="w-6" />
-          <p className="text-sm">Sidebar</p>
-        </div>
-      </div>
     </div>
   );
 };
-
-
 
 export const rpaNavItems: NavData[] = [
   {
@@ -186,7 +168,6 @@ export const rpaNavItems: NavData[] = [
     icon: <House className="w-6" />,
     id: "1",
   },
-  
 ];
 
 export default Sidebar;
