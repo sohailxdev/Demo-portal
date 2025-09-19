@@ -1,6 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
 import authReducer from "@/features/authSlice/authSlice";
-import  cs1Slice  from '@/pages/CS1Slice';
+import  cs1Slice  from '@/pages/cs1Slice';
 import MainSlice from '@/pages/MainSlice';
 import finalSlice from './../pages/FinalSlice';
 
