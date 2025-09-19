@@ -15,7 +15,7 @@ import { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { useAppSelector } from "@/app/hooks";
 import { selectMain } from "./MainSlice";
-import { addCS1S } from "./CS1Slice";
+import { addCS1S } from "./cs1Slice";
 
 // Form schema validation
 const formSchema = z.object({
